@@ -1,5 +1,6 @@
 import './App.css'
 import NavBar from "./components/Navbar";
+import About from './Pages/About'
 import{ 
   Routes,
   Route} from "react-router-dom";
@@ -12,6 +13,7 @@ function App() {
   <NavBar/>
   <Routes>
       <Route path="hello" element={<Hello />} /> 
+      <Route path="About" element={<About />} />
       </Routes>
         
      
