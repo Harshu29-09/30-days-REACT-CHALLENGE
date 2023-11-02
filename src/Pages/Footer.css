@@ -1,0 +1,25 @@
+
+.footer{
+    /*    
+        display: grid; */
+        width: 100vw;
+        
+        background-color:lightcyan;
+        display: flex;
+        justify-content: center;
+        /* grid-template-columns: repeat(8,4fr); */
+        /* padding: 10px ; */
+        /* position: relative;
+        top: 40px; */
+    }
+    .foot{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 32vh;
+        /* clear: both;
+        position: relative;
+        height: 200px;
+        margin-top: -200px; */
+    }
+    
