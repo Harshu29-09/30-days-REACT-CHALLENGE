@@ -5,6 +5,7 @@ import{
   Routes,
   Route} from "react-router-dom";
   import Hello from './Pages/hello';
+  import Navigation  from './Pages/Navigation';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
   <Routes>
       <Route path="hello" element={<Hello />} /> 
       <Route path="About" element={<About />} />
+      <Route path="Navigation" element={<Navigation />} />
       </Routes>
         
      
