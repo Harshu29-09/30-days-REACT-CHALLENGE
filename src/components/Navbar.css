@@ -1,0 +1,14 @@
+.header{
+    width: 100vw;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.icon{
+    font-size: 20px;
+    margin: 20px;
+}
