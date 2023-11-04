@@ -10,6 +10,7 @@ function NavBar() {
           <Link className='icon' to="/About " >Day2</Link>
            <Link  className='icon' to="/Navigation" >Day3</Link>
            <Link  className='icon' to="/Product" >Day5</Link>
+           <Link  className='icon' to="/Counter" >Day6</Link>
           
           
     </ul>
