@@ -7,6 +7,7 @@ import Navigation from "./Pages/Navigation";
 import { ProductDetails } from "./ProductDetails";
 import Counter from "./Pages/Counter";
 import CounterState from "./Pages/CounterState";
+import DataApi from "./Pages/DataApi";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="Product" element={<ProductDetails />} />
         <Route path="Counter" element={<Counter />} />
         <Route path="CounterState" element={<CounterState />} />
+        <Route path="DataApi" element={<DataApi />} />
       </Routes>
     </div>
   );

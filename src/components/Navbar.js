@@ -12,6 +12,7 @@ function NavBar() {
            <Link  className='icon' to="/Product" >Day5</Link>
            <Link  className='icon' to="/Counter" >Day6</Link>
            <Link  className='icon' to="/CounterState" >Day7</Link>
+           <Link  className='icon' to="/DataApi" >Day8</Link>
           
           
     </ul>
