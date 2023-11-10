@@ -6,6 +6,7 @@ import Hello from "./Pages/hello";
 import Navigation from "./Pages/Navigation";
 import { ProductDetails } from "./ProductDetails";
 import Counter from "./Pages/Counter";
+import CounterState from "./Pages/CounterState";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="Navigation" element={<Navigation />} />
         <Route path="Product" element={<ProductDetails />} />
         <Route path="Counter" element={<Counter />} />
+        <Route path="CounterState" element={<CounterState />} />
       </Routes>
     </div>
   );
