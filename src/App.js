@@ -10,6 +10,7 @@ import CounterState from "./Pages/CounterState";
 import DataApi from "./Pages/DataApi";
 import RegistrationForm from "./Pages/RegistrationForm";
 import FormValidation from "./Pages/FormValidation";
+import ListMap from "./Pages/ListMap";
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Route path="RegistraionForm" element={<RegistrationForm />} />
         <Route path="RegistrationForm" element={<RegistrationForm/>} />
         <Route path="FormValidation" element={<FormValidation/>} />
+        <Route path="ListMap" element={<ListMap/>} />
       </Routes>
     </div>
   );
