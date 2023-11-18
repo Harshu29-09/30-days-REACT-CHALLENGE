@@ -11,6 +11,7 @@ import DataApi from "./Pages/DataApi";
 import RegistrationForm from "./Pages/RegistrationForm";
 import FormValidation from "./Pages/FormValidation";
 import ListMap from "./Pages/ListMap";
+import ToDoList from "./Pages/ToDoList";
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <Route path="RegistrationForm" element={<RegistrationForm/>} />
         <Route path="FormValidation" element={<FormValidation/>} />
         <Route path="ListMap" element={<ListMap/>} />
+        <Route path="ToDoList" element={<ToDoList/>} />
       </Routes>
     </div>
   );
