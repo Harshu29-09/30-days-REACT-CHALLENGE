@@ -12,6 +12,7 @@ import RegistrationForm from "./Pages/RegistrationForm";
 import FormValidation from "./Pages/FormValidation";
 import ListMap from "./Pages/ListMap";
 import ToDoList from "./Pages/ToDoList";
+import Toggle from "./Pages/Toggle";
 
 
 function App() {
@@ -31,7 +32,9 @@ function App() {
         <Route path="FormValidation" element={<FormValidation/>} />
         <Route path="ListMap" element={<ListMap/>} />
         <Route path="ToDoList" element={<ToDoList/>} />
+        <Route path="Toggle" element={<Toggle/>} />
       </Routes>
+      
     </div>
   );
 }

@@ -34,7 +34,7 @@ const ToDoList = () => {
       </div>
       <ul id="taskList">
         {tasks.map((task, index) => (
-          <li key={index}>{task}</li>
+          <li>{task}</li>
         ))}
       </ul>
     </div>
