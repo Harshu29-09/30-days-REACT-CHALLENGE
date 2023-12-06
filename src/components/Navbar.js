@@ -18,6 +18,7 @@ function NavBar() {
            <Link  className='icon' to="/ListMap" >Day12</Link>
            <Link  className='icon' to="/ToDoList" >Day13</Link>
            <Link  className='icon' to="/Toggle" >Day14</Link>
+           <Link  className='icon' to="/LoginPage" >Day15</Link>
           
     </ul>
         

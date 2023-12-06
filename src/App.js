@@ -13,6 +13,7 @@ import FormValidation from "./Pages/FormValidation";
 import ListMap from "./Pages/ListMap";
 import ToDoList from "./Pages/ToDoList";
 import Toggle from "./Pages/Toggle";
+import LoginPage from "./Pages/LoginPage";
 
 
 function App() {
@@ -33,6 +34,8 @@ function App() {
         <Route path="ListMap" element={<ListMap/>} />
         <Route path="ToDoList" element={<ToDoList/>} />
         <Route path="Toggle" element={<Toggle/>} />
+        <Route path="LoginPage" element={<LoginPage/>} />
+
       </Routes>
       
     </div>
